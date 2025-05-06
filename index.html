@@ -1,66 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
 
-  <!-- Link to external stylesheets (if any) -->
-  <link rel="stylesheet" href="styles.css">
-  
-  <style>
-    /* Simple CSS styles to center the navigation bar */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-    }
+    <link rel="stylesheet" href="styles.css">
 
-    nav {
-      background-color: #333;
-      padding: 10px;
-      display: flex;
-      justify-content: space-between; /* Keeps logo on the left and links centered */
-      align-items: center;
-    }
+    <style>
+        /* Simple CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
 
-    .logo {
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      margin-left: 20px;
-    }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    .nav-links {
-      display: flex;
-      justify-content: center;
-      flex-grow: 1;
-    }
+        .logo {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 20px;
+        }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-    }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .shoe-description-section {
+            padding: 20px;
+        }
+
+        .shoe-description {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .shoe-description h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .shoe-description p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <nav>
-    <div class="logo">Nike</div>
-    <div class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
+    <nav>
+        <div class="logo">Nike</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="shoe-description-section">
+        <div class="shoe-description">
+            <h2>Nike Air Force 1</h2>
+            <p>A timeless icon of sneaker culture, the Nike Air Force 1 debuted in 1982 as a basketball shoe. Known for its durable leather upper, supportive cushioning, and versatile style, it has transcended its athletic roots to become a streetwear staple beloved worldwide. Available in low, mid, and high-top variations, the Air Force 1 remains a cornerstone of Nike's heritage.</p>
+        </div>
+
+        <div class="shoe-description">
+            <h2>Nike Air Max</h2>
+            <p>Revolutionizing footwear with its visible Air cushioning technology, the Nike Air Max line has been at the forefront of innovation since its introduction in 1987. Designed for running but embraced for its bold aesthetics and exceptional comfort, the Air Max family includes a diverse range of models, each showcasing evolving Air technology and striking designs.</p>
+        </div>
+
+        <div class="shoe-description">
+            <h2>Nike Cortez</h2>
+            <p>A classic running shoe with a rich history, the Nike Cortez was one of Nike's earliest successes, launched in 1972. Its simple yet iconic design, featuring a leather or nylon upper and a distinctive stripe on the midsole, has made it a cultural symbol. The Cortez offers lightweight comfort and a retro aesthetic that continues to resonate today.</p>
+        </div>
+
+        <div class="shoe-description">
+            <h2>Nike Dunk</h2>
+            <p>Originally a basketball shoe from 1985, the Nike Dunk has become a favorite in skateboarding and streetwear. Its durable construction, supportive design, and wide array of colorways and collaborations have solidified its iconic status. The Nike SB Dunk, specifically modified for skateboarding, further highlights the Dunk's versatility and enduring appeal.</p>
+        </div>
+
+        <div class="shoe-description">
+            <h2>Nike Blazer</h2>
+            <p>Another classic basketball silhouette from Nike's early days, the Blazer debuted in 1973. Its clean lines, leather or suede upper, and prominent Swoosh have made it a versatile shoe that has been embraced by both athletes and fashion enthusiasts. The Blazer's timeless design continues to be reimagined in various styles and collaborations.</p>
+        </div>
     </div>
-  </nav>
-  <button>HELLO</button>
+
+    <button>HELLO</button>
 
 </body>
 </html>
