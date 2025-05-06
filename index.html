@@ -65,6 +65,22 @@
             color: #555;
             line-height: 1.6;
         }
+
+        /* Styling for buttons */
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 <body>
@@ -106,7 +122,21 @@
         </div>
     </div>
 
-    <button>HELLO</button>
+    <!-- Functional Buttons -->
+    <button onclick="alertMessage()">Click Me</button>
+    <button onclick="scrollToTop()">Scroll to Top</button>
+
+    <script>
+        // Function to alert a message when button is clicked
+        function alertMessage() {
+            alert("Hello! You've clicked the button.");
+        }
+
+        // Function to scroll the page to the top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 
 </body>
 </html>
